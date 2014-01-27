@@ -1,0 +1,7 @@
+#!/bin/bash
+
+if [ ! -d ${3}/bin ];then
+  mkdir ${3}/bin
+fi;
+
+ln -sr ${3}/usr/bin/sed ${3}/bin/sed
